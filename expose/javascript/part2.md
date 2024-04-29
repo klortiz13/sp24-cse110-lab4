@@ -15,8 +15,8 @@ Line 12 prints `3`.
 11. The function executes successfully even with a `const` variable inside the for loop. This is because a new `const` variable with the same name is created on every iteration and given a different value (as if we were overriding it). The function returns the array `discounted` that contains the final price of each price in `prices` after applying the `discountedPrice` to each of them. The function returns `[50, 100, 150 ]`. It returns the same array as when we were using `var` or `let` instead.
 
 ### Data Types
-12. (A) To access the value of the name property in the student object: `student.name;`
-(B) To access the value of the Grad Year property in the student object: `student['Grad Year'];`
-(C) To call the function for the greeting property in the student object: `student.greeting();`
-(D) To access the name property of the object in the Favorite Teacher property in student: `student['Favorite Teacher'].name;`
-(E) To access index zero in the array of the courseLoad property of the student object: `student.courseLoad[0];`
+12. (A) To access the value of the name property in the student object: `student.name;`  
+(B) To access the value of the Grad Year property in the student object: `student['Grad Year'];`  
+(C) To call the function for the greeting property in the student object: `student.greeting();`  
+(D) To access the name property of the object in the Favorite Teacher property in student: `student['Favorite Teacher'].name;`  
+(E) To access index zero in the array of the courseLoad property of the student object: `student.courseLoad[0];`  
