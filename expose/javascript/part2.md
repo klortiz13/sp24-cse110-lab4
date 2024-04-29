@@ -20,3 +20,25 @@ Line 12 prints `3`.
 (C) To call the function for the greeting property in the student object: `student.greeting();`  
 (D) To access the name property of the object in the Favorite Teacher property in student: `student['Favorite Teacher'].name;`  
 (E) To access index zero in the array of the courseLoad property of the student object: `student.courseLoad[0];`  
+
+### Basic Operators & Type Conversion 
+13. Arithmetic:  
+(A) '3' + 2 = `'32'`  
+(B) '3' - 2 = `1`  
+(C) 3 + null = `3`  
+(D) '3' + null = `'3null'`  
+(E) true + 3 = `4`  
+(F) false + null = `0`  
+(G) '3' + undefined = `'3undefined'`  
+(H) '3' - undefined = `NaN`  
+
+14. Comparison:
+(A) '2' > 1 = `true`  
+(B) '2' < '12' = `false`  
+(C) 2 == '2' = `true`  
+(D) 2 === '2' = `false`  
+(E) true == 2 = `false`  
+(F) true === Boolean(2) = `true`   
+
+15. Explain the difference between the == and === operators:  
+`==` compares the equality of the values being compared (i.e. `'2' == 2` would return `true`), while `===` strictly compares the equality of the values being compared, meaning that it checks for the equality of the values AND the data types (i.e. `'2' === 2` would return `false` but `2 === 2` would return `true`).
