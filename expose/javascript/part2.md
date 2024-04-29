@@ -42,3 +42,16 @@ Line 12 prints `3`.
 
 15. Explain the difference between the == and === operators:  
 `==` compares the equality of the values being compared (i.e. `'2' == 2` would return `true`), while `===` strictly compares the equality of the values being compared, meaning that it checks for the equality of the values AND the data types (i.e. `'2' === 2` would return `false` but `2 === 2` would return `true`).
+
+### Functions
+17. Briefly walk through how you arrived at that result:   
+The result I got is `[2,4,6]`.   
+We start by calling the function `modifyArray`, passing an array `array` and a function `callback` as parameters.   
+`modifyArray` creates a constant array `newArr` and then enters a for loop that will iterate through the given `array`.   
+On each iteration, we're pushing an element into the `newArr`, and that element is the result of calling the given function `callback` (which is `doSomething(num)`) on the argument of `array[i]`.   
+Since the first element of `array` is `1`, `callback` will take that `num` and return its multiplication it by 2, which is 2.   
+Thus, the first new element of the `newArr` is 2 (because 1 * 2 = 2).   
+We keep going for the other 2 elements, which after multiplying them by 2, we get 4 and 6.   
+Once the loop terminates, we return the `newArr` which contains `[2,4,6]`.  
+This is so cool, we can literally pass functions as arguments to be able to use them there.
+
