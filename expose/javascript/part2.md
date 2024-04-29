@@ -55,3 +55,5 @@ We keep going for the other 2 elements, which after multiplying them by 2, we ge
 Once the loop terminates, we return the `newArr` which contains `[2,4,6]`.  
 This is so cool, we can literally pass functions as arguments to be able to use them there.
 
+### setInterval(), setTimeout(), clearTimeout()
+19. The output of the code is `1,4,3,2`. This is because 1 and 4 don't have an interval, so they're executed immediately in the top-bottom order that they were written. Then out of the two `setTimeout` calls, the one with the lowest waiting time, 3, is executed first, and then the last one to execute is 2. Thus the output `1,4,3,2`.
